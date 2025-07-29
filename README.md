@@ -64,3 +64,6 @@ docker-compose exec app php artisan migrate:fresh --seed
 	•	画像アップロードは storage/app/public/products/ に保存され、php artisan storage:link により公開。
 	•	.env や .env.example にて環境変数設定を行ってください。
 	•	エラー時は docker-compose logs を確認することでデバッグ可能。
+
+##ER図
+📄 [ER図（PDF）はこちら](https://github.com/hinaga-rena/furima-app/raw/main/src/docs/er_diagram.pdf)
